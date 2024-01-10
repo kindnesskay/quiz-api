@@ -42,3 +42,5 @@ app.post("/answer/:id", (req, res) => {
 app.listen(port, () => {
   console.log(`server is  running on ${port}`);
 });
+
+module.exports=app
