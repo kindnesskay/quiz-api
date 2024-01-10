@@ -1,0 +1,97 @@
+{
+  "1": {
+    "question": "What does HTML stand for?",
+    "options": [
+      "HyperText Markup Language",
+      "High-Level Text Modeling Language",
+      "Home Tool Markup Language",
+      "Hyperlink and Text Management Language"
+    ],
+    "correct_option": 0,
+    "id": 1
+  },
+  "2": {
+    "question": "Which of the following is a CSS preprocessor?",
+    "options": ["JavaScript", "Sass", "Python", "HTML5"],
+    "correct_option": 1,
+    "id": 2
+  },
+  "3": {
+    "question": "What does the 'href' attribute in an anchor tag define?",
+    "options": [
+      "Header Reference",
+      "Hypertext Reference",
+      "HTML Reference",
+      "Hyperlink Reference"
+    ],
+    "correct_option": 3,
+    "id": 3
+  },
+  "4": {
+    "question": "Which programming language is commonly used for web development?",
+    "options": ["Java", "C++", "Python", "JavaScript"],
+    "correct_option": 3,
+    "id": 4
+  },
+  "5": {
+    "question": "What does the acronym AJAX stand for in web development?",
+    "options": [
+      "Asynchronous JavaScript and XML",
+      "Advanced JavaScript and XML",
+      "Active JavaScript and XML",
+      "All JavaScript and XML"
+    ],
+    "correct_option": 0,
+    "id": 5
+  },
+  "6": {
+    "question": "Which of the following is NOT a valid HTTP status code?",
+    "options": [
+      "404 Not Found",
+      "200 OK",
+      "300 Redirection",
+      "500 Internal Server Error"
+    ],
+    "correct_option": 2,
+    "id": 6
+  },
+  "7": {
+    "question": "What is the purpose of the 'box-sizing' property in CSS?",
+    "options": [
+      "Defines the box model for images",
+      "Specifies the sizing behavior for elements",
+      "Sets the background size of a box",
+      "Controls the visibility of a box"
+    ],
+    "correct_option": 1,
+    "id": 7
+  },
+  "8": {
+    "question": "In JavaScript, what is the purpose of the 'addEventListener' method?",
+    "options": [
+      "To create an element",
+      "To append a child element",
+      "To handle events on elements",
+      "To remove an element"
+    ],
+    "correct_option": 2,
+    "id": 8
+  },
+  "9": {
+    "question": "Which of the following is a front-end framework for web development?",
+    "options": ["Express.js", "Django", "React", "Flask"],
+    "correct_option": 2,
+    "id": 9
+  },
+  "10": {
+    "question": "What is the purpose of the 'viewport' meta tag in HTML?",
+    "options": [
+      "Defines the layout of the page",
+      "Sets the font size of the page",
+      "Specifies the character set for the page",
+      "Controls the width and scaling of the viewport"
+    ],
+    "correct_option": 3,
+    "id": 10
+  }
+}
