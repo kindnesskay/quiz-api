@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const questions = require("./questions.json");
+const questions2=require('./questions2.json')
 const app = express();
 const port = 3000;
 app.use(cors());
@@ -38,6 +39,15 @@ app.post("/answer/:id", (req, res) => {
   }
   
 });
+
+app.get('/question2/:id',(req,res)=>{
+  const question2ID=parseInt(req.params.id)
+  if(!question2ID|| question2ID <0 || !questions2[question2ID]){
+    return res.status(404).json({error:"Question not found"})
+  }
+  return res.status(200).json({message:"Under construction"})
+
+})
 
 app.listen(port, () => {
   console.log(`server is  running on ${port}`);
